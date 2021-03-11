@@ -152,7 +152,7 @@ header nav a:hover {
 
 
 
-@media only screen and (max-width: 600px) {
+@media(max-width: 600px) {
     .filme-principal .descricao {
         font-weight: Bold;
         margin-bottom: 10%;
