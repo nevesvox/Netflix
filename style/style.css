@@ -28,6 +28,7 @@ header {
     position: fixed;
     width: 100%;
     transition: 0.6s;
+    z-index: 10000000;
 }
 
 .sticky {
@@ -76,7 +77,7 @@ header nav a:hover {
 .filme-principal .container {
     margin-right: 20%;
     margin-top: 15%;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 .filme-principal .descricao {
@@ -121,3 +122,33 @@ header nav a:hover {
     background-color: rgba(109, 109, 110, 0.37);
     color: white;
 }
+
+.owl-dots {
+    visibility: hidden;
+    display: none;
+}
+
+.box-filme {
+    border-radius: 5px;
+}
+
+.desc-group {
+    margin-top: 10px;
+    color: #fff;
+    user-select: none;
+    cursor: default;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.desc-alone {
+    margin-left: 3% !important;
+}
+
+.last {
+    margin-bottom: 3%;
+}
+
+
+
