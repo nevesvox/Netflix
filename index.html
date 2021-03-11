@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+    <!-- Importa os arquivos -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- OWL -->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <p class="titulo">THE WITCHER</p>
+                <p class="descricao">Henry Cavill estrela esta série épica repleta de monstros, magia e destino, baseada nos livros de Andrzej Sapkowski.</p>
+                <div class="botoes">
+                    <button role="button" class="botao btnBranco"><i class="fas fa-play" style="margin-right: 10px"></i>Assistir</button>
+                    <button role="button" class="botao btnCinza"><i class="fas fa-info-circle"style="margin-right: 10px"></i>Mais informações</button>
+                </div>
+                <div>
+                    <p>Originais Netflix</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <img src="./img/1.webp" alt="">
+</body>
+</html>
+
+<script src="https://kit.fontawesome.com/d346216ea8.js" crossorigin="anonymous"></script>
+<script src="./js/owl/jquery.min.js"></script>
+<script src="./js/owl/owl.carousel.min.js"></script>
+
+<script>
+    window.addEventListener("scroll", function() {
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+    })
+</script>
