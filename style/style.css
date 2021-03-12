@@ -163,3 +163,52 @@ header nav a:hover {
         display: none;
     }
 }
+
+.owl-carousel {
+
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    margin: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.26) !important;
+    font-size: 70px !important;
+    transition: 0.3s;
+}
+
+.owl-prev {
+    left:0;
+    top: -5px;
+    left: -14px;
+    height: 100%;
+    width: 50px;
+}
+
+.owl-prev:hover, .owl-next:hover{
+    background-color: rgba(0, 0, 0, 0.466) !important;
+    font-size: 90px !important;
+    font-weight: bold !important;
+}
+
+.owl-next {
+    right:0;
+    top: -5px;
+    height: 100%;
+    width: 40px;
+    right: -5px;
+}
+
+/* .grow {
+    display: block;
+
+}
+
+.grow:hover {
+    transform: scale(1.1);
+  
+}
+
+.grow {transition: all .2s ease-in-out;}
+
+ .owl-stage-outer {padding: 10px;} */
