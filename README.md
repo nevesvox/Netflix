@@ -12,3 +12,8 @@ Implementações adicionais:
   - Inclusão dos botões laterais de `Próximo` e `Anterior`;
   - Efeitos hover nos botões;
 
+
+
+# Deploy da página no GitHub Pages:
+
+[Visualizar página](https://nevesvox.github.io/Netflix/)
